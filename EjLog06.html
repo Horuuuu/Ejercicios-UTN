@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Programa una función para contar el número de veces que se repite una palabra en un texto largo, 
+        pe. miFuncion("hola mundo adios mundo", "mundo") devolverá 2 -->
+    <script>
+        const textoEnCadena=(cadena="",texto="")=>{
+            let i=0 ,
+            contador=0;
+            while(i !== -1){
+                i=cadena.indexOf(texto,i)
+                if(i !==-1){
+                    i++;
+                    contador++;
+                }
+            }
+            return console.info(`La palabra ${texto} se repite ${contador} veces`)
+        }
+        textoEnCadena("hola mundo adios mundo","mundo");
+    </script>
+</body>
+</html>

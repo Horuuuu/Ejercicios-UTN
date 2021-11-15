@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!---Programa una función que reciba un número y evalúe si es capicúa o no (que se lee igual en un sentido que en otro), 
+        pe. miFuncion(2002) devolverá true.-->
+        <script>
+            const capicua=(numero=0)=>{
+                if(typeof numero !== "number")return console.error(`el valor"${numero}"ingresado,NO es un numero`)
+
+                numero=numero.toString()
+                let alReves=numero.split("").reverse().join("");
+                return(numero === alReves)
+                ? console.info(`SÍ es capicua,numero origianl ${numero},numero al reves ${alReves}`)
+                : console.info(`NO es capicua,numero origianl ${numero},numero al reves ${alReves}`)
+
+            }
+
+            capicua("33")
+        </script>
+</body>
+</html>

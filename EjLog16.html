@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Programa una función que dado un arreglo de números obtenga el promedio, pe. promedio([9,8,7,6,5,4,3,2,1,0]) devolverá 4.5.
+-->
+<script>
+    const promedio=(arr=undefined)=>{
+        return console.info(
+            arr.reduce((total,numero,index,arr)=>{
+                total += numero;
+                if(index ===arr.length-1){
+                    return`el promedio de ${arr.join("+")}es ${total/arr.length}`
+                }else{
+                    return total;
+                }
+            })
+        )
+    }
+    promedio([1,2,3,4,5])
+</script>
+</body>
+</html>
