@@ -1,7 +1,12 @@
 # Ejercicios-UTN
 Ejercicios de UTN  y de otros cursos. Javascript y más.
 
-Ejercicios de logica Javascript:
+<li>Ejercicio02:como parámetro un array de números y devuelva el mayor</li>
+<li>Ejercicio04:contador de caracteres para textarea</li>
+<li>Ejercicio05:generar un array con los alumnos aprobados.+6</li>
+<hr>
+<p>Ejercicios de logica Javascript:</p>
+
 <ol>
 <li>cuenta caracteres de un string</li>
 <li>recorta texto</li>
