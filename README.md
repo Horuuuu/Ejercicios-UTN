@@ -26,3 +26,13 @@ Ejercicios de UTN  y de otros cursos. Javascript y más.
 <li> un arreglo de números obtenga el promedio</li>
 
 </ol>
+<hr>
+Ejercicios Javascript noviembre
+<li>Concatenar  cadenas de caracteres por medio de plantillas y el operador +</li>
+<li>Obtener un caracter individual de una cadena de caracteres</li>
+<li>Encontrar la posicion en la que se halla una palabra</li>
+<lireemplazar cadena de caracteresli>
+<li>Obtener el minimo y el maximo de un conjunto de numeros</li>
+<li>Agregar elemento a un arreglo</li>
+<li>Crear metodo para eliminar un elemento de un arreglo</li>
+<li>Funcion para generar numeros primos</li>
