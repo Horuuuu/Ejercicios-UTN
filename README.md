@@ -37,6 +37,8 @@ Ejercicios Javascript noviembre
 <li>Crear metodo para eliminar un elemento de un arreglo</li>
 <li>Funcion para generar numeros primos</li>
 
+  <hr>
+  
   <p>Ejercicios Diciembre</p>
   <li>EJavascript09:definir una funcion para extraer el primer elemento de un arreglo</li>
   <li>EJavascript10:Encontrar los elementos duplicados de un arreglo por medio de una función</li>
